@@ -1,2 +1,2 @@
-# javatutorial1
-Der Code von der Java-Tutorial Serie auf Youtube
+# Java Tutorial
+Hallöchen Leute, hier findet ihr den Code aus den Tutorialserien auf Youtube.
