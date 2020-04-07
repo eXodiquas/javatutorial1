@@ -10,19 +10,21 @@ class Entscheidungen {
             a != b a ungleich b
         */
         
-        int alter = 9;
+        int alter1 = 9;
         
-        if(alter > 20) {
+        if(alter1 > 20) {
             System.out.println("Person ist bei der Arbeit.");
-        } else if(alter > 6) {
+        } else if(alter1 > 6) {
             System.out.println("Person ist in der Schule.");
-        } else if(alter == 0) {
+        } else if(alter1 == 0) {
             System.out.println("Person ist gerade geboren worden!");
         } else {
             System.out.println("Person ist im Kindergarten.");
         }
 
-        switch(alter) {
+        int alter2 = 13;
+
+        switch(alter2) {
             case 9: 
                 System.out.println("Person ist 9.");
                 break;
@@ -33,6 +35,15 @@ class Entscheidungen {
                 System.out.println("Person ist uralt.");
                 break;
         }
+        
+
+        //bedingung ? fall1 : fall2
+
+        int a = 16;
+        int b = 15;
+        int ternary = a>b?5:10;
+
+        System.out.println(ternary);
     }
 }
 
